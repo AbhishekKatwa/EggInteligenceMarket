@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-25T10:38:12.894937+00:00",
+  "method": "online exponentially weighted regime-conditioned signal learning",
+  "decay": 0.97,
+  "signals": [
+    "momentum",
+    "crowd",
+    "supply_demand",
+    "cross_market",
+    "historical_probability"
+  ],
+  "comparison": [
+    {
+      "horizon": 1,
+      "n_x": 644,
+      "accuracy": 0.36024844720496896,
+      "brier": 0.8037922854955396,
+      "avg_confidence": 0.6112553053816949,
+      "n_y": 644,
+      "static_accuracy": 0.27639751552795033,
+      "static_brier": 0.745301304786031,
+      "accuracy_delta": 0.08385093167701863,
+      "brier_delta": 0.058490980709508644
+    },
+    {
+      "horizon": 3,
+      "n_x": 592,
+      "accuracy": 0.4155405405405405,
+      "brier": 0.7275339202862857,
+      "avg_confidence": 0.6294945385657983,
+      "n_y": 592,
+      "static_accuracy": 0.40202702702702703,
+      "static_brier": 0.6689601318536932,
+      "accuracy_delta": 0.013513513513513487,
+      "brier_delta": 0.05857378843259253
+    },
+    {
+      "horizon": 7,
+      "n_x": 489,
+      "accuracy": 0.5276073619631901,
+      "brier": 0.6613115263532588,
+      "avg_confidence": 0.6547526174541691,
+      "n_y": 489,
+      "static_accuracy": 0.5296523517382413,
+      "static_brier": 0.6153993583875644,
+      "accuracy_delta": -0.002044989775051187,
+      "brier_delta": 0.04591216796569442
+    }
+  ],
+  "overall_weights": [
+    {
+      "horizon": 1,
+      "w_momentum": 0.18702559006743613,
+      "w_crowd": 0.18848496661902858,
+      "w_supply_demand": 0.2662570785626021,
+      "w_cross_market": 0.1904497999868559,
+      "w_historical_probability": 0.16778256476407724
+    },
+    {
+      "horizon": 3,
+      "w_momentum": 0.1910226874909701,
+      "w_crowd": 0.19393135931149683,
+      "w_supply_demand": 0.21907790264966573,
+      "w_cross_market": 0.20327485193082795,
+      "w_historical_probability": 0.19269319861703937
+    },
+    {
+      "horizon": 7,
+      "w_momentum": 0.1740609658593407,
+      "w_crowd": 0.21124252037006216,
+      "w_supply_demand": 0.17630737611451747,
+      "w_cross_market": 0.21980425497390427,
+      "w_historical_probability": 0.21858488268217538
+    }
+  ]
+}

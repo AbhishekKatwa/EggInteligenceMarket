@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-08-25T10:38:46.905767+00:00",
+  "method": "online empirical probability calibration with walk-forward updates",
+  "prior_strength": 12,
+  "comparison": [
+    {
+      "horizon": 1,
+      "n": 644,
+      "raw_accuracy": 0.36024844720496896,
+      "calibrated_accuracy": 0.5015527950310559,
+      "raw_brier": 0.7921997665404948,
+      "calibrated_brier": 0.6044022415703976,
+      "brier_improvement": 0.18779752497009727,
+      "raw_avg_confidence": 0.6112553053816949,
+      "calibrated_avg_confidence": 0.6371923880662607
+    },
+    {
+      "horizon": 3,
+      "n": 592,
+      "raw_accuracy": 0.4155405405405405,
+      "calibrated_accuracy": 0.4239864864864865,
+      "raw_brier": 0.7259914374015244,
+      "calibrated_brier": 0.7251751770934614,
+      "brier_improvement": 0.0008162603080630326,
+      "raw_avg_confidence": 0.6294945385657984,
+      "calibrated_avg_confidence": 0.6793896030311262
+    },
+    {
+      "horizon": 7,
+      "n": 489,
+      "raw_accuracy": 0.5276073619631901,
+      "calibrated_accuracy": 0.5255623721881391,
+      "raw_brier": 0.6436058966713193,
+      "calibrated_brier": 0.6923870993436634,
+      "brier_improvement": -0.04878120267234409,
+      "raw_avg_confidence": 0.6547526174541691,
+      "calibrated_avg_confidence": 0.7585092727499705
+    }
+  ],
+  "warning": "Calibration is exploratory and should be validated on a final untouched holdout."
+}

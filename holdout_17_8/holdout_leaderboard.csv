@@ -1,0 +1,15 @@
+model,horizon,n,accuracy,brier,avg_confidence
+Frozen Adaptive God Mode,1,144,0.2777777777777778,0.8191922571715575,0.5593536002174999
+Frozen Adaptive God Mode,3,96,0.21875,0.8206107345799021,0.5952776220694412
+Momentum,1,144,0.4791666666666667,,
+Crowd,1,144,0.2361111111111111,,
+SupplyDemand,1,144,0.5277777777777778,,
+CrossMarket,1,144,0.1527777777777778,,
+Momentum,3,96,0.3645833333333333,,
+Crowd,3,96,0.22916666666666666,,
+SupplyDemand,3,96,0.5625,,
+CrossMarket,3,96,0.22916666666666666,,
+Momentum,7,0,,,
+Crowd,7,0,,,
+SupplyDemand,7,0,,,
+CrossMarket,7,0,,,

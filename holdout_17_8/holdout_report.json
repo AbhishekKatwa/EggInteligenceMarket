@@ -1,0 +1,124 @@
+{
+  "generated_at": "2026-08-25T10:39:22.770773+00:00",
+  "split": "chronological 80/20",
+  "train_unique_dates": 21,
+  "holdout_unique_dates": 6,
+  "train_last_date": "2026-08-18",
+  "holdout_first_date": "2026-08-19",
+  "holdout_last_date": "2026-08-24",
+  "note": "Weights were fit on train only and then frozen. Holdout outcomes were never used for fitting.",
+  "leaderboard": [
+    {
+      "model": "Frozen Adaptive God Mode",
+      "horizon": 1,
+      "n": 144,
+      "accuracy": 0.2777777777777778,
+      "brier": 0.8191922571715575,
+      "avg_confidence": 0.5593536002174999
+    },
+    {
+      "model": "Frozen Adaptive God Mode",
+      "horizon": 3,
+      "n": 96,
+      "accuracy": 0.21875,
+      "brier": 0.8206107345799021,
+      "avg_confidence": 0.5952776220694412
+    },
+    {
+      "model": "Momentum",
+      "horizon": 1,
+      "n": 144,
+      "accuracy": 0.4791666666666667,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "Crowd",
+      "horizon": 1,
+      "n": 144,
+      "accuracy": 0.2361111111111111,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "SupplyDemand",
+      "horizon": 1,
+      "n": 144,
+      "accuracy": 0.5277777777777778,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "CrossMarket",
+      "horizon": 1,
+      "n": 144,
+      "accuracy": 0.1527777777777778,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "Momentum",
+      "horizon": 3,
+      "n": 96,
+      "accuracy": 0.3645833333333333,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "Crowd",
+      "horizon": 3,
+      "n": 96,
+      "accuracy": 0.22916666666666666,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "SupplyDemand",
+      "horizon": 3,
+      "n": 96,
+      "accuracy": 0.5625,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "CrossMarket",
+      "horizon": 3,
+      "n": 96,
+      "accuracy": 0.22916666666666666,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "Momentum",
+      "horizon": 7,
+      "n": 0,
+      "accuracy": NaN,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "Crowd",
+      "horizon": 7,
+      "n": 0,
+      "accuracy": NaN,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "SupplyDemand",
+      "horizon": 7,
+      "n": 0,
+      "accuracy": NaN,
+      "brier": NaN,
+      "avg_confidence": NaN
+    },
+    {
+      "model": "CrossMarket",
+      "horizon": 7,
+      "n": 0,
+      "accuracy": NaN,
+      "brier": NaN,
+      "avg_confidence": NaN
+    }
+  ]
+}

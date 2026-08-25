@@ -1,0 +1,115 @@
+{
+  "generated_at": "2026-08-25T10:33:39.568329+00:00",
+  "messages": 1991,
+  "market_observations": 670,
+  "prediction_rows": 644,
+  "scored_rows": 1725,
+  "markets": 26,
+  "leaderboard": [
+    {
+      "model": "God Mode",
+      "horizon_days": 1,
+      "n": 644,
+      "direction_accuracy": 0.27639751552795033,
+      "mean_brier": 0.745301304786031
+    },
+    {
+      "model": "Momentum",
+      "horizon_days": 1,
+      "n": 644,
+      "direction_accuracy": 0.34627329192546585,
+      "mean_brier": NaN
+    },
+    {
+      "model": "Crowd",
+      "horizon_days": 1,
+      "n": 644,
+      "direction_accuracy": 0.34006211180124224,
+      "mean_brier": NaN
+    },
+    {
+      "model": "SupplyDemand",
+      "horizon_days": 1,
+      "n": 644,
+      "direction_accuracy": 0.47360248447204967,
+      "mean_brier": NaN
+    },
+    {
+      "model": "CrossMarket",
+      "horizon_days": 1,
+      "n": 644,
+      "direction_accuracy": 0.32608695652173914,
+      "mean_brier": NaN
+    },
+    {
+      "model": "God Mode",
+      "horizon_days": 3,
+      "n": 592,
+      "direction_accuracy": 0.40202702702702703,
+      "mean_brier": 0.6689601318536932
+    },
+    {
+      "model": "Momentum",
+      "horizon_days": 3,
+      "n": 592,
+      "direction_accuracy": 0.36486486486486486,
+      "mean_brier": NaN
+    },
+    {
+      "model": "Crowd",
+      "horizon_days": 3,
+      "n": 592,
+      "direction_accuracy": 0.40540540540540543,
+      "mean_brier": NaN
+    },
+    {
+      "model": "SupplyDemand",
+      "horizon_days": 3,
+      "n": 592,
+      "direction_accuracy": 0.38344594594594594,
+      "mean_brier": NaN
+    },
+    {
+      "model": "CrossMarket",
+      "horizon_days": 3,
+      "n": 592,
+      "direction_accuracy": 0.4408783783783784,
+      "mean_brier": NaN
+    },
+    {
+      "model": "God Mode",
+      "horizon_days": 7,
+      "n": 489,
+      "direction_accuracy": 0.5296523517382413,
+      "mean_brier": 0.6153993583875644
+    },
+    {
+      "model": "Momentum",
+      "horizon_days": 7,
+      "n": 489,
+      "direction_accuracy": 0.38445807770961143,
+      "mean_brier": NaN
+    },
+    {
+      "model": "Crowd",
+      "horizon_days": 7,
+      "n": 489,
+      "direction_accuracy": 0.4867075664621677,
+      "mean_brier": NaN
+    },
+    {
+      "model": "SupplyDemand",
+      "horizon_days": 7,
+      "n": 489,
+      "direction_accuracy": 0.28016359918200406,
+      "mean_brier": NaN
+    },
+    {
+      "model": "CrossMarket",
+      "horizon_days": 7,
+      "n": 489,
+      "direction_accuracy": 0.5194274028629857,
+      "mean_brier": NaN
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-08-25T10:16:57.582033+00:00",
+  "historical_messages": 1991,
+  "parsed_market_observations": 670,
+  "replay_decisions": 670,
+  "scored_decisions": 644,
+  "unique_markets": 26,
+  "unique_decision_dates": 28,
+  "recommendations_per_day_mean": 23.928571428571427,
+  "recommendations_per_day_max": 24,
+  "performance": [
+    {
+      "strategy": "God Mode event-driven",
+      "observations": 644,
+      "avg_edge_per_egg": -1.8431566104702752,
+      "total_edge_per_egg": -1186.9928571428572,
+      "win_rate": 0.1972049689440994,
+      "worst_event": -38.25000000000001,
+      "best_event": 30.0,
+      "max_drawdown_per_egg": -1174.0464285714284
+    }
+  ]
+}
